@@ -37,12 +37,9 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+            I am passionate to write maintainable code using common design patterns.<br className="sm:block hidden" />  
+            I have written big applications with millions of users so I have good experience with cashing, common security holes, and dealing with big data.<br className="sm:block hidden" />
+            I am looking for challenging projects and startups to help you build something great and hone my skills.<br className="sm:block hidden" />
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

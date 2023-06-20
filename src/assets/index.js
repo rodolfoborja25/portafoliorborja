@@ -6,10 +6,11 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/LogoRborja.png';
 import logotext from './logo/logo-text-black.png';
 
-import rodolfo from './personal/Rodolfo.png';
+import rodolfo from './personal/Rodolfo2.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
+import rpa from './icons/RPA.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
@@ -49,6 +50,7 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import gestorRequerimientos from './projects/GestorRequerimientos.png'
 
 export {
   bwmap,
@@ -96,4 +98,6 @@ export {
   dcc,
   kelhel,
   microverse,
+  rpa,
+  gestorRequerimientos
 };

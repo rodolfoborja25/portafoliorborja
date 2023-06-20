@@ -27,6 +27,8 @@ import {
   dcc,
   kelhel,
   microverse,
+  rpa,
+  gestorRequerimientos
 } from '../assets';
 
 export const navLinks = [
@@ -60,6 +62,10 @@ const services = [
   {
     title: 'Software Prototyping',
     icon: prototyping,
+  },
+  {
+    title: 'Robotic process automation (RPA)',
+    icon: rpa,
   },
 ];
 
@@ -124,57 +130,92 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Junior Developer',
+    company_name: 'Righttek',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Aug 2017 - Aug 2018',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Semi-senior Developer',
+    company_name: 'Righttek',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Aug 2018 - Feb 2019',
+  },
+  {
+    title: 'Leader Developer',
+    company_name: 'Righttek',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Feb 2019 - Aug 2019',
+  },
+  {
+    title: 'Semi-senior Developer',
+    company_name: 'Sipecom',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Aug 2019 - Mar 2020',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Ejecutivo I',
+    company_name: 'Banco del Pacifico',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Mar 2020 - Aug 2021',
   },
   {
+    title: 'Senior Developer',
+    company_name: 'Sipecom',
+    icon: microverse,
+    iconBg: '#333333',
+    date: 'Nov 2021 - May 2022',
+  },
+  {
+    title: 'Technical Consultant - RPA ',
+    company_name: 'Kruger',
+    icon: kelhel,
+    iconBg: '#333333',
+    date: 'May 2022 - Aug 2022',
+  },
+  {
+    title: 'Leader Fronted - React ',
+    company_name: 'Kruger',
+    icon: kelhel,
+    iconBg: '#333333',
+    date: 'Aug 2022 - Oct 2022',
+  }, 
+  {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    company_name: 'Kruger',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Oct 2022 - Present',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Gestor Requerimientos',
+    description: 'The objective of the tool is the different departments of the financial entity to solve thousands of internal requirements, allow the creation of requirements, Modify a form according to how they need it, Save the SLA of the attention of the ticket. Generate service report. Dashboard in real time.',
     tags: [
       {
-        name: 'react',
+        name: 'Asp.net c#',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'ORACLE',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Bootstrap',
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: gestorRequerimientos,
+    repo: '',
+    demo: '',
   },
   {
     id: 'project-2',
