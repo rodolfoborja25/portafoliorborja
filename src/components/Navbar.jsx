@@ -34,7 +34,7 @@ const Navbar = () => {
             className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
           /> */}
           <a className={`text-eerieBlack
-                    text-[88px] font-bold font-arenq 
+                   sm:text-[15px] md:text-[45px] xl:text-[65px] lg:text-[85px] font-bold font-arenq 
                       uppercase tracking-[1px] cursor-pointer`}> RODOLFO BORJA </a>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
